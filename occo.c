@@ -133,6 +133,8 @@ int main(const int argc, const char ** argv){
 
 //current behavior is fine... uncomment the commented lines to make buggy!
 //does not require a vao to be buggy... just anything vbo related
+// example of bug happen https://www.youtube.com/watch?v=Z4U6kWDR3cQ
+//btw im on caicos (rv910) with mesa 13.0.1
 /*
 	GLuint vaoid, vboid;
 	glGenVertexArrays(1, &vaoid);
